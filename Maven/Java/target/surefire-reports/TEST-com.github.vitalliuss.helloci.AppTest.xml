@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.086" tests="5" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.095" tests="5" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="c:\Data\temp\Homework\Maven\Java\target\test-classes;c:\Data\temp\Homework\Maven\Java\target\classes;C:\Users\ANDERSON\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ANDERSON\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="c:\Data\temp\helloci\Java\target\test-classes;c:\Data\temp\helloci\Java\target\classes;C:\Users\ANDERSON\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ANDERSON\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="c:\Java\jdk-14.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\ANDERSON\AppData\Local\Temp\surefire4005767407246292037\surefirebooter7973823630819132093.jar C:\Users\ANDERSON\AppData\Local\Temp\surefire4005767407246292037 2020-08-31T13-33-06_099-jvmRun1 surefire1576087150805267694tmp surefire_08344804290587061689tmp"/>
+    <property name="sun.java.command" value="C:\Users\ANDERSON\AppData\Local\Temp\surefire5522376453248508312\surefirebooter7782263398806585866.jar C:\Users\ANDERSON\AppData\Local\Temp\surefire5522376453248508312 2020-08-31T13-15-56_303-jvmRun1 surefire7026772675715124581tmp surefire_02529698733143951164tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="c:\Data\temp\Homework\Maven\Java\target\test-classes;c:\Data\temp\Homework\Maven\Java\target\classes;C:\Users\ANDERSON\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ANDERSON\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="c:\Data\temp\helloci\Java\target\test-classes;c:\Data\temp\helloci\Java\target\classes;C:\Users\ANDERSON\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ANDERSON\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ANDERSON"/>
     <property name="user.language" value="ru"/>
@@ -26,12 +26,12 @@
     <property name="java.version.date" value="2020-07-14"/>
     <property name="java.home" value="c:\Java\jdk-14.0.2"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="c:\Data\temp\Homework\Maven\Java"/>
+    <property name="basedir" value="c:\Data\temp\helloci\Java"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ANDERSON\AppData\Local\Temp\surefire4005767407246292037\surefirebooter7973823630819132093.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANDERSON\AppData\Local\Temp\surefire5522376453248508312\surefirebooter7782263398806585866.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\ANDERSON\AppData\Local\Temp\"/>
     <property name="java.version" value="14.0.2"/>
-    <property name="user.dir" value="c:\Data\temp\Homework\Maven\Java"/>
+    <property name="user.dir" value="c:\Data\temp\helloci\Java"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,10 +56,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.004"/>
   <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
+  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0.002"/>
+  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.002"/>
   <testcase name="testShouldBeSKipped" classname="com.github.vitalliuss.helloci.AppTest" time="0">
     <skipped message="Not implemented yet"/>
   </testcase>
